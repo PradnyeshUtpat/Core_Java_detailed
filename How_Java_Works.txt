@@ -13,6 +13,7 @@ Key Concepts:
 Java Source Code: This is the code you write, which is easy for humans to read and understand.
 Class: In Java, code must be encapsulated in a class. The HelloWorld class in the example is the basic building block.
 Main Method: The main method is the entry point for any standalone Java application. It must have the signature public static void main(String[] args).
+
 2. Compiling Java Code
 The Java source code needs to be transformed into bytecode, a low-level, platform-independent code that the JVM can execute. This transformation is handled by the Java compiler (javac).
 
@@ -22,6 +23,7 @@ Compilation: You compile the .java file using the Java compiler. This process ge
 Key Concepts:
 Bytecode: This is the intermediate representation of your Java code, which is not directly readable by humans but can be executed by the JVM.
 .class File: The compiled bytecode is stored in .class files, which the JVM interprets and executes.
+
 3. Java Virtual Machine (JVM)
 The JVM is a crucial component that enables Java’s platform independence. It is an abstract computing machine that executes Java bytecode. Each operating system (OS) has its own version of the JVM, tailored to that particular environment.
 
@@ -32,6 +34,7 @@ JVM Execution: When you run a Java program, the JVM takes the bytecode from the 
 Key Concepts:
 Execution: The JVM executes bytecode. It translates the platform-independent bytecode into platform-specific machine code.
 JVM Variants: Different JVMs are implemented for different OSes (Windows, Linux, macOS), but they all adhere to the same bytecode execution specification.
+
 4. Java Runtime Environment (JRE)
 The JRE encompasses the JVM and other necessary libraries and components that support the execution of Java applications. It provides the environment required for running Java applications but does not include development tools like the compiler.
 
@@ -40,6 +43,7 @@ JVM: The core of the JRE, responsible for executing Java bytecode.
 Libraries: Includes standard Java libraries and APIs that Java programs rely on for functionality beyond the language’s core features.
 Key Concepts:
 Runtime Environment: Provides the necessary infrastructure for running Java applications, including libraries and JVM.
+
 5. Java Development Kit (JDK)
 For development purposes, the JDK is used. It includes everything in the JRE plus development tools such as the Java compiler (javac), debuggers, and other utilities needed for Java development.
 
@@ -49,11 +53,13 @@ Java Compiler (javac): Transforms Java source code into bytecode.
 Development Tools: Various tools to aid in development, such as debugging and profiling tools.
 Key Concepts:
 Development vs. Runtime: The JDK is used for writing and compiling Java code, while the JRE is used for running Java applications.
+
 6. Execution Flow Summary
 Write Java Code: Create a .java file with your source code.
 Compile Code: Use javac to compile the .java file into a .class file containing bytecode.
 Run Bytecode: Use the java command to run the bytecode on the JVM, which translates it into machine code that the OS can execute.
 JRE: Provides the runtime environment needed to execute Java applications.
+
 7. Additional Libraries and Environment
 For more complex applications, additional libraries and frameworks might be used. These are included in the classpath and are part of the broader Java ecosystem.
 
