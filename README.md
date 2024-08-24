@@ -1,1 +1,2 @@
-# Core_Java_detailed
+# Detailed Tutorial of core Java
+
