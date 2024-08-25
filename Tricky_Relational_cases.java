@@ -17,6 +17,7 @@ public class Tricky_Relational_cases {
 
         // Case 5: Greater than or equal to, with parentheses
         System.out.println("Case 5: " + ((x + 1) >= (y - 1)));  // true
+        
     }
 }
 
