@@ -12,7 +12,7 @@ public class Class_Object {
     }
 }
 
-class Car {
+class Car { //package private class
     
     String make = "Suzuki ";
     String model;
