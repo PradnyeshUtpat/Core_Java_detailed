@@ -34,6 +34,7 @@ public class Switch_Case {
             case 7:
                 dayName = "Saturday";
                 break;
+
             default:
                 dayName = "Invalid day";
         }
