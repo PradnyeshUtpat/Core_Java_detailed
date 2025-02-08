@@ -7,7 +7,7 @@ public class static_Method {
 
         Mobile1 mb2 = new Mobile1();
         mb2.brand = "Samsung";
-        Mobile1.type = "Smartphone";
+        Mobile1.type = "Phone";
         mb2.cost = 1500;
 
         mb1.show();
@@ -27,9 +27,9 @@ class Mobile1{
     // public static void printf(){
     //     System.out.println("In static method");
     // }
-    // public static void printf(){
-    //     System.out.println(brand + " " + type + " " + cost);
-    // }
+//     public static void printf(){
+//         System.out.println(brand + " " + type + " " + cost);
+//     }
 
     public static void printf(Mobile1 obj){
         System.out.println(obj.brand + " " + Mobile1.type + " " + obj.cost);
