@@ -1,11 +1,11 @@
 public class Method_Overloading {
     public static void main(String[] args) {
-        double num1 = 4.0;
-        double num2 = 5.0;
+        int num1 = 4;
+        int num2 = 5;
         int num3 = 6;
 
-        Calculator calc = new Calculator();
-        double r = calc.add((int)num1,(int)num2);
+        Calculator1 calc = new Calculator1();
+        int r = calc.add(num1,num2,num3);
         System.out.println(r);
     }
 }
