@@ -3,7 +3,7 @@ public class Literals {
         int num = 10_00_000;
         double num1 = 1e11;
         int num2 = 0b101;
-        int num3 = 0xFFF;
+        int num3 = 0xF;
         char c = 'a';
         c++;
         System.out.println(c);

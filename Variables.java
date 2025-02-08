@@ -2,10 +2,10 @@ public class Variables {
     public static void main(String args[]) {
         int num;
         num = 3;
-        double marks = 1.4d;
+        double marks = 1.4D;
         short  p_ = 1;
-        float p = 6.0f;
-        long l = 10000l;
+        float p = 6.0F;
+        long l = 10000L;
         String z;
         z = "hi buddy";
         System.out.println(z);
@@ -64,7 +64,7 @@ Formula: IEEE 754 Standard
 7. boolean
 Size: Not precisely defined (typically 1 bit but JVM-specific)
 Range: true or false
-        8. char
+8. char
 Size: 2 bytes (16 bits)
 Range: '\u0000' (0) to '\uffff' (65,535)
 Formula: 0 to (2^n - 1)

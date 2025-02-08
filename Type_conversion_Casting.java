@@ -1,7 +1,7 @@
 public class Type_conversion_Casting {
     public static void main(String[] args) {
         float f = 9.9f;
-        int i = (int) f;
+        int i = (int) f; // implicit - type conversion
         System.out.println(i);
 
         //Type casting
@@ -10,7 +10,7 @@ public class Type_conversion_Casting {
         int a = 257;
         // a = b;
         // System.out.println(a);
-        b = (byte) a; 
+        b = (byte) a; //explicit - type casting
         System.out.println(b);
 
 
