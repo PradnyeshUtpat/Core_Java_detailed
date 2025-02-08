@@ -1,22 +1,22 @@
 public class static_Method {
     public static void main(String[] args) {
-        Mobile mb1 = new Mobile();
+        Mobile1 mb1 = new Mobile1();
         mb1.brand = "Apple";
-        Mobile.type = "Smartphone";
+        Mobile1.type = "Smartphone";
         mb1.cost = 1200;
 
-        Mobile mb2 = new Mobile();
+        Mobile1 mb2 = new Mobile1();
         mb2.brand = "Samsung";
-        Mobile.type = "Smartphone";
+        Mobile1.type = "Smartphone";
         mb2.cost = 1500;
 
         mb1.show();
         mb2.show();
-        Mobile.printf(mb1);
+        Mobile1.printf(mb1);
 
     }
 }
-class Mobile{
+class Mobile1{
     String brand;
     static String type;
     int cost;
@@ -31,8 +31,8 @@ class Mobile{
     //     System.out.println(brand + " " + type + " " + cost);
     // }
 
-    public static void printf(Mobile obj){
-        System.out.println(obj.brand + " " + Mobile.type + " " + obj.cost);
+    public static void printf(Mobile1 obj){
+        System.out.println(obj.brand + " " + Mobile1.type + " " + obj.cost);
     }
 }
 

@@ -1,23 +1,23 @@
 public class static_var {
     public static void main(String[] args) {
-        Mobile mb1 = new Mobile();
+        Mobile2 mb1 = new Mobile2();
         mb1.brand = "Apple";
-        Mobile.type = "Smartphone";
+        Mobile2.type = "Smartphone";
         mb1.cost = 1200;
 
-        Mobile mb2 = new Mobile();
+        Mobile2 mb2 = new Mobile2();
         mb2.brand = "Samsung";
-        Mobile.type = "Smartphone";
+        Mobile2.type = "Smartphone";
         mb2.cost = 1500;
 
-        Mobile.type = "Phone";
+        Mobile2.type = "Phone";
 
         mb1.show();
         mb2.show();
 
     }
 }
-class Mobile{
+class Mobile2{
     String brand;
     static String type;
     int cost;
