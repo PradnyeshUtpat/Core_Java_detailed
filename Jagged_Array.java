@@ -1,4 +1,4 @@
-public class Jagged_Array {
+public class  Jagged_Array {
 	public static void main(String[] args) 
 	{
 //		int nums[][]=new int [3][]; //jagged
@@ -14,7 +14,9 @@ public class Jagged_Array {
 			for(int j=0;j<nums[i].length;j++)
 			{
 				nums[i][j]=(int)(Math.random()*10);
+				System.out.print(nums[i][j] + " ");
 			}
+			System.out.println();
 		}
 	}
 }

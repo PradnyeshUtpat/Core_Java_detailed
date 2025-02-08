@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Array_of_Objects {
     public static void main(String[] args) {
         Student s1 = new Student();
@@ -15,7 +17,7 @@ public class Array_of_Objects {
         s3.name = "Brendon";
         s3.marks = 91;
 
-        Student student[] = new Student[3];
+        Student[] student = new Student[3];
         student[0] = s1;
         student[1] = s2;
         student[2] = s3;
@@ -26,6 +28,8 @@ public class Array_of_Objects {
             System.out.print(s.marks + " ");
             System.out.println();
         }
+        System.out.println(System.identityHashCode(s1));
+        System.out.println(System.identityHashCode(student[0]));
 
     }
     
