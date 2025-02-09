@@ -14,7 +14,7 @@ class Mobile_This {
     }
 
     // Constructor with brand and price
-    Mobile_This(String brand, int price) {
+    private Mobile_This(String brand, int price) {
         this.brand = brand;
         this.price = price;
     }
