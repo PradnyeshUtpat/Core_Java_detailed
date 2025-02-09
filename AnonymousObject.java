@@ -2,8 +2,6 @@ public class AnonymousObject {
 
     public static void main(String[] args) {
 
-
-
         new Calculator2().add(5, 3);
         new Calculator2().add(6, 3);
     }
