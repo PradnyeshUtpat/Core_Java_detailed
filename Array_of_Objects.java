@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Array_of_Objects {
     public static void main(String[] args) {
         Student s1 = new Student();
