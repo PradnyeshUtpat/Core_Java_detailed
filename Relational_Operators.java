@@ -24,5 +24,10 @@ public class Relational_Operators {
         int n = 6;
         double g = 6.0;
         System.out.println(n==g);
+        System.out.println(g==n);
+
+        int p = 45;
+        long p1 = 45L;
+        System.out.println(p==p1);
     }
 }
