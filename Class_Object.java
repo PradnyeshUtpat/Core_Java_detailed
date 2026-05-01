@@ -14,7 +14,7 @@ public class Class_Object {
 
 class Car { //package private class
     
-    String make = "Suzuki ";
+    String company = "Suzuki ";
     String model;
     String engine;
     int year;
@@ -24,6 +24,6 @@ class Car { //package private class
     }
 
     public void drive() {
-        System.out.println(make + model + " Car is in motion");
+        System.out.println(company + model + " Car is in motion");
     }
 }
