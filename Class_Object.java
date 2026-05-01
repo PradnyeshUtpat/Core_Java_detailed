@@ -2,7 +2,7 @@ public class Class_Object {
     public static void main(String[] args) {
         Car myCar = new Car();
 
-        //myCar.company = "Toyota ";
+        myCar.company = "Toyota ";
         myCar.model = "Camry";
         myCar.engine = "V8";
         myCar.year = 2022;
