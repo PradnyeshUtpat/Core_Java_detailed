@@ -10,7 +10,7 @@ public class Type_conversion_Casting {
         int a = 257 ;
         // a = b;
         // System.out.println(a);
-        b = (byte) a; //explicit - type casting 257%range = 257%256 = 1
+        b = (byte) a; //explicit - type casting 257%rangeOfType = 257%256 = 1
         System.out.println(b);
 
 

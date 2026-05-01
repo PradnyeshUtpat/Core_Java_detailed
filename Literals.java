@@ -11,5 +11,10 @@ public class Literals {
         System.out.println(num1);
         System.out.println(num2);
         System.out.println(num3);
+
+        double d = 1.0;
+        // int i = d; // This will cause a compile-time error because of incompatible types
+        int i = (int) d; // This is correct, but it will truncate the decimal part
+        System.out.println(i);
     }
 }
