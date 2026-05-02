@@ -18,7 +18,6 @@ public class StackHeapDemo {
         // ---------------- HEAP MEMORY ----------------
         // Object is created in heap, reference is stored in stack
         Person p1 = new Person(25);
-
         // Stack: p1 → reference
         // Heap: Person object { age = 25 }
 

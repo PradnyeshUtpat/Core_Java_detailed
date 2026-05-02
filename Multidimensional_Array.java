@@ -3,7 +3,7 @@ public class Multidimensional_Array {
 
         int[][] matrix = new int[3][3];
         
-        int[][] anotherMatrix = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9}, {10, 11, 12} };
+        int[][] anotherMatrix = new int[][]{ {1, 2, 3}, {4, 5, 6}, {7, 8, 9}, {10, 11, 12} };
         
         int element = anotherMatrix[1][2];
         int c = anotherMatrix[0].length;
