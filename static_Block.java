@@ -27,8 +27,8 @@ public class static_Block {
 	{
 		
 //		Class.forName("Mobile");// load class
-		new Mobile();
-		new Mobile();
+		new Mobile().show();
+		new Mobile().show();
 		
 	}
 }

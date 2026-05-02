@@ -9,8 +9,7 @@ public class Inheritance {
         int r4=obj.div(15,4);
         System.out.println(obj.num);
         System.out.println(r1+" "+r2);
-
-
+        System.out.println(r3+" "+r4);
     }
 }
 
