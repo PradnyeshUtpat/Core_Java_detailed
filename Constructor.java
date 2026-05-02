@@ -12,13 +12,13 @@ class Human_1 {
     // private String name = "Pradnyesh";
     private int age;
     private String name;
-    Human_1() //default
+    public Human_1() //default
     {
         this.age = 11; 
         this.name = "Pradnyesh";
         System.out.println("in default constructor");
     }
-    Human_1(int age , String name){ //parametrised
+    public Human_1(int age , String name){ //parametrised
         this.age = age;
         this.name = name;
         System.out.println("in parametrised constructor");

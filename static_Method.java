@@ -51,4 +51,6 @@ For static methods having non static instance vars explicitly call the method on
 */
 
 //main method is static because of no parent class object required since execution has not yet started
+//static method can't access non static instance variables directly because they are not associated with any object and each object can have different values for those variables
+//static method can access static variables directly because they are associated with the class and shared among all objects
 //Deadlock situation
