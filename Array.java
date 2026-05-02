@@ -13,7 +13,7 @@ public class Array {
             System.out.println(primeNumber);
         }
 
-        for (int number : primeNumbers) {
+        for (int number : numbers) {
             System.out.println(number);
         }
 
