@@ -28,6 +28,8 @@ public class Array_of_Objects {
         }
         System.out.println(System.identityHashCode(s1));
         System.out.println(System.identityHashCode(student[0]));
+        System.out.println(student[0]);
+        System.out.println(s1);
 
     }
     
