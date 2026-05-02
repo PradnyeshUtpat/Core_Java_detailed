@@ -7,6 +7,8 @@ public class Inheritance {
         int r2=obj.sub(7,3);
         int r3=obj.multi(5,3);
         int r4=obj.div(15,4);
+        //Calc obj1=new Calc();
+        //obj1.div(15,4); // This will give error as div method is not present in Calc class
         System.out.println(obj.num);
         System.out.println(r1+" "+r2);
         System.out.println(r3+" "+r4);
