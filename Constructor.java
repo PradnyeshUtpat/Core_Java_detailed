@@ -14,13 +14,14 @@ class Human_1 {
     private String name;
     Human_1() //default
     {
-        age = 11;
-        name = "Pradnyesh";
-        System.out.println("in constructor");
+        this.age = 11; 
+        this.name = "Pradnyesh";
+        System.out.println("in default constructor");
     }
     Human_1(int age , String name){ //parametrised
         this.age = age;
         this.name = name;
+        System.out.println("in parametrised constructor");
     }
     public String getName(){
         return name;
