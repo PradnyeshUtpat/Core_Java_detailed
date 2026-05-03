@@ -16,6 +16,7 @@ class P{ // ----------------> if made final no one can extend it
     }
 }
 class C extends P{
+    @Override
     public void show(){
         System.out.println("In C show");
     }
