@@ -12,6 +12,12 @@ public class WrapperClasses {
         String str = "12";
         int num3 = Integer.parseInt(str);
         System.out.println(num3 *  2);
-
+        Boolean bool = Boolean.parseBoolean("true");
+        System.out.println(bool);
+        Character ch = 'a';
+        System.out.println(ch);
+        Float f = 3.14f;
+        System.out.println(f); 
+        System.out.println(Float.valueOf("3.14"));
     }
 }
