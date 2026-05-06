@@ -14,6 +14,22 @@ public class static_Method {
         mb2.show();
         Mobile1.printf(mb1);
 
+
+        Par p = new Chi();
+        p.show(); // Output: In parent class because static method is resolved at compile time based on reference type and not object type.
+        
+
+    }
+}
+class Chi extends Par{
+    
+    static void show(){
+        System.out.println("In child class");
+    }
+}
+class Par{
+    static void show(){
+        System.out.println("In parent class");
     }
 }
 class Mobile1{
@@ -35,6 +51,7 @@ class Mobile1{
         System.out.println(obj.brand + " " + Mobile1.type + " " + obj.cost);
     }
 }
+
 
 
 /*
