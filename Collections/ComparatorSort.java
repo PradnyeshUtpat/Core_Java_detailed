@@ -42,6 +42,8 @@ public class ComparatorSort {
         System.out.println();
         System.out.println("Lambda expression for sorting in ascending order");
         list2.sort((a,b) -> a.length() - b.length());
+        Comparator<String> comp = Comparator.comparing(String::length);
+        list2.sort(comp);
         for(String s: list2){
             System.out.print(s + " ");
         }
