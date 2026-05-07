@@ -46,6 +46,7 @@ public class Arraylist {
         list2.add(4);
         List<Integer> list3 = List.of(5,6);
         list2.addAll(list3);
+        list2.removeAll(list3);
         for(Integer i: list2){
             System.out.print(i + " ");
         }
