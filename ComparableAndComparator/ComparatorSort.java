@@ -1,4 +1,4 @@
-package Collections;
+package ComparableAndComparator;
 import java.util.*;
 class ascending implements Comparator<Integer>{
     @Override
