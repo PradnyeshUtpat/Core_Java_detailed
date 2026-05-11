@@ -20,6 +20,12 @@ class comp implements Comparator<Student>{
         return Double.compare(s1.getCgpa(), s2.getCgpa()); // for ascending order of CGPA
     }
 }
+class comp2 implements Comparator<Student>{
+    @Override
+    public int compare(Student s1, Student s2){
+        return Double.compare(s2.getCgpa(), s1.getCgpa()); // for descending order of CGPA
+    }
+}
 public class ComparatorClassSort {
     public static void main(String[] args) {
         Student s1 = new Student("Bob", 3.8);
@@ -35,8 +41,8 @@ public class ComparatorClassSort {
         }
         // Shorthand
         Comparator<Student> comp2 = Comparator.comparing(Student::getCgpa);
-        Comparator<Student> comp3 = Comparator.comparing(Student::getCgpa).reversed().thenComparing(Student::getName);
-        // This will sort in ascending order of CGPA and if CGPA is same then it will sort in descending order of name.
+        Comparator<Student> comp3 = Comparator.comparing(Student::getCgpa).reversed().thenComparing(Student::getName);  
+        // This will sort the students based on their CGPA in descending order. If two students have the same CGPA, then they will be sorted based on their name in ascending order.      
         students.sort(comp2);
         for(Student s: students){
             System.out.println(s.getName() + " " + s.getCgpa());
