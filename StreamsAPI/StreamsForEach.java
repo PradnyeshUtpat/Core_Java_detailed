@@ -36,9 +36,7 @@ public class StreamsForEach {
 
 
         Stream<Integer> valStream = map.values().stream();
-        valStream.forEach((element)->System.out.print(element + " "));
-         
-
+        valStream.forEach((element)->System.out.print(element + " ")); 
     }
 
 }
