@@ -1,4 +1,4 @@
-class Parent{
+class Parent1{
     int a;
     int b;
     public void display(){
@@ -14,12 +14,12 @@ class Parent{
 
 public class InnerClass {
     public static void main(String[] args) {
-        Parent p = new Parent();
-        Parent.inner in = p.new inner();
+        Parent1 p = new Parent1();
+        Parent1.inner in = p.new inner();
         
         //Parent.inner in = new Parent.inner();  ----> static class
         in.display();
-        new Parent().display();
+        new Parent1().display();
     }
 }
 

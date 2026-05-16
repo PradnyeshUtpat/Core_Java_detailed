@@ -3,11 +3,11 @@ package StreamsAPI;
 import java.util.ArrayList;
 import java.util.List;
 
-class Student{
+class Student1{
     private String name;
     private double cgpa;
     private String department;
-    Student(String name,double cgpa,String department){
+    Student1(String name,double cgpa,String department){
         this.cgpa = cgpa;
         this.name = name;
         this.department = department;
@@ -28,15 +28,15 @@ class Student{
 }
 public class StreamClassFilter {
     public static void main(String[] args) {
-        List<Student> students = new ArrayList<>();
-        students.add(new Student("Pradnyesh",8.67,"Computer Engineering"));
-        students.add(new Student("Aman",8.68,"Mechanical Engineering"));
-        students.add(new Student("Anshul",9.17,"Instrumentation Engineering"));
-        students.add(new Student("Soham",7.67,"Computer Engineering"));
-        students.add(new Student("Vivek",8.4,"Computer Engineering"));
-        List<Student> toppers = students.stream().filter((student)->student.getCgpa()>8.5).toList();
+        List<Student1> students = new ArrayList<>();
+        students.add(new Student1("Pradnyesh",8.67,"Computer Engineering"));
+        students.add(new Student1("Aman",8.68,"Mechanical Engineering"));
+        students.add(new Student1("Anshul",9.17,"Instrumentation Engineering"));
+        students.add(new Student1("Soham",7.67,"Computer Engineering"));
+        students.add(new Student1("Vivek",8.4,"Computer Engineering"));
+        List<Student1> toppers = students.stream().filter((student)->student.getCgpa()>8.5).toList();
         System.out.println(toppers.toString());
-        List<Student> computerToppers = toppers.stream().filter((element)->element.getDepartment().equals("Computer Engineering")).toList();
+        List<Student1> computerToppers = toppers.stream().filter((element)->element.getDepartment().equals("Computer Engineering")).toList();
         System.out.println(computerToppers);
     }
 }

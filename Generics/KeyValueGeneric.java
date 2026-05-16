@@ -1,6 +1,6 @@
 package Generics;
 
-class Pair<K,V>{
+class Pair1<K,V>{
     private K key;
     private V value;
     void setKey(K key){
@@ -21,7 +21,7 @@ class Pair<K,V>{
 }
 public class KeyValueGeneric {
     public static void main(String[] args) {
-        Pair<String,Integer> student = new Pair<String,Integer>();
+        Pair1<String,Integer> student = new Pair1<String,Integer>();
         student.setKey("Pradnyesh");
         student.setValue(15);
         student.show();

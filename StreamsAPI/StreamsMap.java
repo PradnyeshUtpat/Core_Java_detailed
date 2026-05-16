@@ -6,12 +6,7 @@ import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Stream;
-class ascending implements Comparator<Integer>{
-    @Override
-    public int compare(Integer a, Integer b){
-        return a - b; // for ascending order
-    }
-}
+
 public class StreamsMap {
     public static void main(String[] args) {
 
@@ -45,16 +40,6 @@ public class StreamsMap {
         List<Integer> num = new ArrayList<>(Arrays.asList(1,2,3,4,5));
         int max =num.stream().mapToInt(element->element).max().getAsInt();
         System.out.println(max);
-
-        // code to find second largest
-        int second = nums.stream().distinct().sorted(Comparator.reverseOrder()).skip(1).findFirst().get();
-        System.out.println(second);
-
-        // code to find second smallest
-        int secondMin = nums.stream().distinct().sorted(new ascending()).skip(1).findFirst().get();
-        System.out.println(secondMin);
-
-
 
     }
 }

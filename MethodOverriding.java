@@ -5,13 +5,13 @@ public class MethodOverriding {
     }
 }
 
-class Parent {
+class Parent2 {
     public void show(){
         System.out.println("In A show");
     }
 }
 
-class Child extends Parent{
+class Child extends Parent2{
     @Override
     public void show(){
         System.out.println("In B show");

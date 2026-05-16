@@ -1,10 +1,10 @@
-abstract class Car{
+abstract class Car2{
     public abstract void drive();
     public void playMusic(){
         System.out.println("Playing music");
     }
 }
-class Tesla extends Car{
+class Tesla1 extends Car2{
     @Override
     public void drive() {
         System.out.println("Driving Tesla");
@@ -12,7 +12,7 @@ class Tesla extends Car{
 }
 public class AbstractKeyword {
     public static void main(String[] args) {
-        Car car = new Tesla();
+        Car2 car = new Tesla1();
         car.drive();
         car.playMusic();
     }
